@@ -1,0 +1,280 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.flexone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flextwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.white{
+    color: white;
+}
+#overallWrapper{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0%;
+    background-color: white;
+}
+#firstWrapper{
+    background-color: grey;
+    margin: 0%;
+    padding: 30px 8%;
+    height: auto;
+}
+#cloud1{
+    display: flex;
+    justify-content: right;
+
+}
+#clou{
+    width: 5%;
+}
+#proDetails{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#proName{
+    color: cyan;
+    font-size: 40px;
+    font-style: italic;
+}
+#prog{
+    color: cyan;
+    margin-top: 3%;
+}
+#pro{
+    text-decoration: underline;
+}
+#mount{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+#mountainTop{
+    width: 25%;
+}
+#secondWrapper{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+#ismo{
+    width: 15%;
+}
+#ismoImg{
+    display: flex;
+    justify-content: center;
+    padding: 3% 0%;
+}
+.helos{
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+}
+.helo{
+    text-align: center;
+    margin-top: 1%;
+}
+#dot{
+    font-weight: bolder;
+}
+#divHello{
+    text-align: center;
+}
+.hello2{
+font-size: 20px;
+}
+.hello1{
+    font-size: 20px;
+}
+#skill{
+    color: green;
+    font-size: 30px;
+}
+#skillDiv{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#skillOne{
+    border-top: 4px solid black;
+    width: 60%;
+}
+#skilldivLeft{
+width: 40%;
+}
+#comput{
+    width: 80%;
+    padding-top: 4%;
+}
+#skilldivRight{
+    width:60%;
+}
+#wordRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+#web{
+    padding-top: 4%;
+    color: green;
+    font-size: 20px;
+    margin-bottom: 6%;
+}
+#skilldivTwo{
+    width: 100%;
+    border-top: 4px solid black;
+    padding-top: 2%;
+}
+#skilldivtwoLeft{
+    width: 82%;
+}
+#stud{
+    margin-bottom: 2%;
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+#learn{
+    width: 73%;
+}
+#skilldivtwoRight{
+    width: 22%;
+}
+#rightPic{
+    height: 200px;
+}
+.dots{
+    margin-top: 2%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#thirdWrapper{
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    margin-top: 4%;
+    padding: 4% 0%;
+}
+#port{
+    color: green;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    text-align: center;
+}
+#galPics{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 10%;
+    height: 360px;
+}
+#galPics:hover{
+    transition: all 4s ease-in-out;
+}
+
+#galPics2{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 10%;
+    height: 290px;
+    margin-top: 2%;
+}
+#finalDiv{
+    background-color: white;
+    text-align: center;
+}
+#get{
+    margin-top: 2%;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+}
+#love{
+    margin-top: 2%;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+}
+#hit{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 20px;
+}
+#contact{
+    margin-top: 2%;
+    display: flex;
+    justify-content: right;
+    padding: 0% 25%;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px 20px;
+}
+#contact a:hover{
+    background-color: yellowgreen;
+}
+#socialDiv{
+    margin-top: 3%;
+    width: 100%;
+    background-color: deepskyblue;
+    padding: 20px 40%;
+    
+}
+
+#socialDivs a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#socialDivs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#copy{
+    margin-top: 30%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
